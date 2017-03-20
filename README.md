@@ -35,6 +35,8 @@ Essentially your function will "remember" that it wants to multiply 3 by whateve
 
 ## Sorting Algorithms
 
+![Sorting](http://i.imgur.com/sSzvYe3.gif)
+
 ### Bubble Sort
 A bubble sort will compare a pair of adjacent elements in an array, see which one is larger, and then swap the values so they are in sorted order if it is necessary. The bubble sort algorithm is not ideal for sorting large sets of data, since it has a complexity of O(N^2). Let's take a look at a quick example. Let's say you have the array [12, 5, 9, 2, 1]. On the first pass through the array, the bubble sort will compare the 12 and 5. It'll ask, is 12 larger than 5? The answer is yes, so the 12 and the 5 will swap positions and our array will now be [5, 12, 9, 2, 1]. Next the 12 and the 9 will be compared, and it'll ask if 12 is larger than 9. The answer again is yes, so now our array looks like [5, 9, 12, 2, 1]. This process will continue until the algorithm finds a value that 12 is not greater than, or it reaches the end of the array. Since 12 is the largest value in this array, it will end up in the last position. 
 
