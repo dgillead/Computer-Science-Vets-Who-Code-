@@ -11,6 +11,6 @@ When figuring out the Big O of an algorithm you want to figure out which portion
 * O(1): takes the same amount of time to run regardless of how much data must be processed.
 * O(N): the time it takes to run grows in direct proportion to the amount of data that must be processed. 
 * O(N^2): the time it takes to run grows proportionally to the exponent(in this case 2).
-* O(log N): the data that must be processed is decreased by roughly half each pass through the algorithm. This means that as the data inceases exponentially the time increases linearly, which makes algorithms that fall into this category very efficient. 
+* O(log N): the data that must be processed is decreased by roughly half each pass through the algorithm. This means that as the data increases exponentially the time increases linearly, which makes algorithms that fall into this category very efficient. 
 
 
